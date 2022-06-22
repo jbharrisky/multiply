@@ -1,0 +1,22 @@
+body {
+
+}
+
+.begin, .initialNum{
+  font-size: 20px;
+}
+
+.container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+.cell, #cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8, #cell9, #cell10 {
+  background-color: lightgreen;
+  padding: 1rem;
+  text-align: center;
+}

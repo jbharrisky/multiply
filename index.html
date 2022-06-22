@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resources/styles.css">
+    <title>Grid testing</title>
+  </head>
+  <body id="body">
+    <section class="begin" id="begin">
+      <h1>Multiplication Table Fun</h1>
+      <p>Learning your multiplication facts can be fun!</p>
+    </section>
+    <section class="initialNum" id="initialNum">
+      <label for="">Enter a number for multiplication practice</label>
+      <input type="text" name="" value="" id="myInput" >
+      <button type="button" name="button" onmousedown="mult();">Setup Multiplication Set</button>
+    </section>
+    <section id="container" class="container">
+    <article class="cell1" id="cell1" onclick="flip1();">
+      <p class="num flip" id="card1" >number</p>
+      <p class="num1">x 1 </p>
+      <!-- <span class="num">x </span><span class="num2"> * 1</span> -->
+    </article>
+
+    <article class="cell2" id="cell2" onclick="flip2();">
+      <p class="num" id="card2" >number</p>
+      <p class="num1" id="num1">x 2</p>
+    </article>
+
+    <article class="cell3" id="cell3" onclick="flip3();">
+      <p class="num" id="card3" >number</p>
+      <p class="num1" id="num1">x 3</p>
+    </article>
+
+    <article class="cell4" id="cell4" onclick="flip4();">
+      <p class="num" id="card4" >number</p>
+      <p class="num1" id="num1">x 4</p>
+    </article>
+
+    <article class="cell5" id="cell5" onclick="flip5();">
+      <p class="num" id="card5" >number</p>
+      <p class="num1" id="num1">x 5</p>
+    </article>
+
+    <article class="cell6" id="cell6" onclick="flip6();">
+      <p class="num"  id="card6" >number</p>
+      <p class="num1" id="num1">x 6</p>
+    </article>
+
+    <article class="cell7" id="cell7" onclick="flip7();">
+      <p class="num">number</p>
+      <p class="num1" id="num1">x 7</p>
+    </article>
+
+    <article class="cell8" id="cell8" onclick="flip8();">
+      <p class="num">number</p>
+      <p class="num1" id="num1">x 8</p>
+
+    </article>
+
+    <article class="cell9" id="cell9" onclick="flip9();">
+      <p class="num">number</p>
+      <p class="num1" id="num1">x 9</p>
+    </article>
+
+    <article class="cell10" id="cell10" onclick="flip10();">
+      <p class="num">number</p>
+      <p class="num1" id="num1">x 10</p>
+    </article>
+
+    </section>
+
+
+
+    <script src="resources/scripts/script.js" charset="utf-8"></script>
+  </body>
+</html>
